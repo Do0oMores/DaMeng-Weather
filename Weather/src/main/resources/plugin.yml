@@ -1,0 +1,5 @@
+name: Weather
+version: 1.0.0
+main: com.mores.weatherSpider
+description: "天气小助手"
+api-version: 0.48.2
