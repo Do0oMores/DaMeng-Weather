@@ -38,7 +38,7 @@ public class weatherSpider extends BasePlugin {
                         String address= (String) arguments[0];
                         String cityCode=findCityCode(address);
                         if (cityCode==null){
-                            message.reply("没有获取到"+arguments[0]+"的天气信息，请检查该城市名是否正确以及是否在大陆内");
+                            message.reply("没有获取到"+arguments[0]+"的天气信息，请检查该城市名是否正确以及是否在国内");
                             return;
                         }
                         String url = "http://t.weather.sojson.com/api/weather/city/" + cityCode;
